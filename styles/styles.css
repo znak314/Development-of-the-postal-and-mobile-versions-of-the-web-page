@@ -1,0 +1,123 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+    grid-template-rows: 20vh 10vh 40vh 10vh 20vh;
+}
+
+
+.header{
+    grid-area: 1/1/2/4;
+    align-items: center;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    grid-area: 5/1/6/4;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+.menu{
+    grid-area: 2/1/5/2;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+body {
+    margin: 0;
+    min-width: 575px;  
+}
+
+
+
+.sector3{
+    grid-area: 2/2/3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.main_sector{
+    grid-area: 3/2/4/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.side_sector{
+    grid-area: 3/3/5/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.sector6{
+    grid-area: 4/2/5/3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.text-box {
+    background-color: #ffffff;
+    width: 20%;
+    height: auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-container img {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: auto;
+    width: 65%; 
+    border: none; 
+    display: inline-block; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.num-div {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.blue{
+    background-color: #C6D9F1;
+}
+
+.green{
+   background-color:  #00d084;
+}
+
+.red{
+    background-color: #FDE9D9;
+}
